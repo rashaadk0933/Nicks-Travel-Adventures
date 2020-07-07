@@ -1,0 +1,26 @@
+Prerequisites
+- text editor
+- web browser
+
+vs code, atom,sublime
+
+1. build project 
+
+
+2. navbar
+links and names
+
+3. item grid
+
+images
+titles
+descriptions
+animation
+
+
+4. about page
+image
+split column layout
+
+
+
