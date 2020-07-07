@@ -141,7 +141,7 @@ acive-nav-link a {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  /* background-color: #333; */
+  background-color: #333;
   font-family: 'PT Serif', serif;
 }
 
