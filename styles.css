@@ -141,7 +141,7 @@ acive-nav-link a {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
   font-family: 'PT Serif', serif;
 }
 
@@ -173,6 +173,7 @@ acive-nav-link a {
   height: 90%;
   padding: none;
   font-family: 'PT Serif', serif;
+  background-color: inherit;
 }
 
 /* Add a red background color to navbar links on hover */
