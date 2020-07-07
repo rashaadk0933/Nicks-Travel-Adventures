@@ -151,7 +151,7 @@ acive-nav-link a {
   /* font-size: 16px; */
   color: white;
   text-align: center;
-  /* padding: 14px 16px; */
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -171,9 +171,9 @@ acive-nav-link a {
   text-transform: uppercase;
   border: none;
   height: 90%;
-  padding: none;
+  padding: 1px 1px;
   font-family: 'PT Serif', serif;
-  background-color: inherit;
+  background-color: white;
 }
 
 /* Add a red background color to navbar links on hover */
