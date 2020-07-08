@@ -8,9 +8,11 @@ body{
   grid-template-columns: 1fr;
 }
 
+/* TEST ITEMS WRAPPER */
 .test-items-wrapper {
   display:grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(5,1fr);
+
 }
 
 .thumbnail{
@@ -59,11 +61,15 @@ body{
   border-bottom: 1px solid blue;
 }
 
-acive-nav-link a {
+.acive-nav-link a {
   color: blue !important;
 }
 
-
+.brand{
+  color: blue;
+  font-size: 20px;
+  /* padding-bottom: 70px; */
+}
 /* Portfolio styles */
 
 .portfolio-items-wrapper{
@@ -143,16 +149,19 @@ acive-nav-link a {
   overflow: hidden;
   /* background-color: #333; */
   font-family: 'PT Serif', serif;
+  text-decoration-color: blue;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left; */
-  /* font-size: 16px; */
-  color: white;
+  font-size: 16px;
+  color: wite;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border: none;
+  border-color: white;
 }
 
 /* The dropdown container */
@@ -164,12 +173,14 @@ acive-nav-link a {
 /* Dropdown button */
 .dropdown .dropbtn {
 
-  color: #8a8a8a;
+  /* color: #8a8a8a; */
   text-decoration: none;
   transition: color 0.5s;
+  color: blue;
   font-size: 0.95em;
   text-transform: uppercase;
   border: none;
+  outline: none;
   height: 90%;
   padding: 1px 1px;
   font-family: 'PT Serif', serif;
